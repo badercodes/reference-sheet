@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./styles.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Bader's Coding Reference Sheet</h1>
+    <h2>HTML Tables</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Syntax</th>
+          <th>Name</th>
+          <th class="description-heading">Description</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td class="syntax">&lt;table&gt;</td>
+          <td class="name">Table</td>
+          <td class="description">Wrapper declaration for an HTML table</td>
+        </tr>
+        <tr>
+          <td class="syntax">&lt;thead&gt;</td>
+          <td class="name">Table Head</td>
+          <td class="description">
+            Wrapper declaration for a table's header, nested within it is the
+            row with all the table headings
+          </td>
+        </tr>
+        <tr>
+          <td class="syntax">&lt;th&gt;</td>
+          <td class="name">Table Head Cell</td>
+          <td class="description">
+            Equivalent to &lt;td&gt; for regular cells, this tag is used within
+            &lt;thead&gt; to declare each cell of the header.
+          </td>
+        </tr>
+        <tr>
+          <td class="syntax">&lt;tbody&gt;</td>
+          <td class="name">Table Body</td>
+          <td class="description">
+            Wrapper declaration for a table's body or main content, nested
+            within it are the rows with all the table data
+          </td>
+        </tr>
+        <tr>
+          <td class="syntax">&lt;tr&gt;</td>
+          <td class="name">Table Row</td>
+          <td class="description">
+            Defines a row in the table, nested within it will be the cells which
+            form the columns
+          </td>
+        </tr>
+        <tr>
+          <td class="syntax">&lt;td&gt;</td>
+          <td class="name">Table Data</td>
+          <td class="description">
+            Defines a cell within the table - this is nested within a row, the
+            content nested within this element will form the contents of the
+            column.
+          </td>
+        </tr>
+        <tr>
+          <td class="syntax">&lt;tfooter&gt;</td>
+          <td class="name">Table Footer</td>
+          <td class="description">
+            Defines a the set of content that will form the footer of the table.
+            This is primarily semantic HTML5 and not necessarily required for
+            each table.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Table Tag Attributes</h2>
+    <table>
+      <thead>
+        <trow>
+          <th>Syntax</th>
+          <th>Name</th>
+          <th class="description-heading">Description</th>
+        </trow>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="syntax">colspan</td>
+          <td class="name">Column Span</td>
+          <td class="description">
+            Specifies how many columns does the &lt;td&gt; span, in event we
+            want a field to span more than 1 column
+          </td>
+        </tr>
+        <tr>
+          <td class="syntax">rowspan</td>
+          <td class="name">Row Span</td>
+          <td class="description">
+            Specifies how many rows does the &lt;td&gt; span, in event we want a
+            field to span more than 1 row
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
